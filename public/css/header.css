@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ===================== HEADER ===================== */
+header {
+    height: 70px;
+    background:rgb(32, 32, 32);
+
+    display: flex;
+
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.header-left-block {
+    width: 20vw;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.header-logo-img {
+    height: 60px;
+
+}
+
+.header-center-block {
+    width: 60vw;
+    height: 100%;
+}
+
+.header-center-top-block {
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.header-center-top-title {
+    font-size: 2em;
+    color: silver;
+}
+
+.header-center-bottom-block {
+    height: 40%;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+p.header-center-bottom-description {
+    font-size: 0.9em;
+    color: silver;
+    font-style: italic;
+}
+
+.header-right-block {
+    width: 20vw;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li.header-right-list-item {
+    font-size: 0.7em;
+    color: silver;
+    padding: 0.5em 0.2em;
+}
+
+a.header-right-list-item-link {
+    color: silver;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+}
+
+a.header-right-list-item-link:hover {
+    background: 3px 3px #570c0c;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button.logout-button {
+    color: silver;
+    background: none;
+    padding: 0.5em 0.5em;
+    border: none;
+}
+
+button.logout-button:hover {
+    background: 3px 3px #570c0c;
+    cursor: pointer;
+}

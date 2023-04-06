@@ -1,0 +1,15 @@
+/* ===================== FOOTER ===================== */
+footer {
+    height: 51px;
+    background:rgb(32, 32, 32);
+    color: silver;
+    text-align: center;
+    line-height: 50px;
+
+    border-top: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+span.footer-evis {
+    font-style: italic;
+}
